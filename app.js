@@ -21,7 +21,7 @@ app.post('/',function(req,res){
     const url = "https://us21.api.mailchimp.com/3.0/lists/9ec105cebf";
     const option = {
         method: "POST",
-        auth: "Samser:25fa5016351f53a724ed239aec53a211-us1"//us21
+        auth: "Samser:25fa5016351f53a724ed239aec53a211-us21"//us21
     }
 
     console.log("First Name = "+fn);
